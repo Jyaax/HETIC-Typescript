@@ -72,7 +72,12 @@ const Home: React.FC = () => {
       <button className="add-button" onClick={() => setShowModal(true)}>
         Add New Anime
       </button>
-
+      <AnimeSummary
+        animeList={allAnimes}
+        onViewDetails={handleOpenModal}
+        onToggleCompletion={handleToggleCompletion}
+        title="All Animes"
+      />
       <AnimeSummary
         animeList={completedAnimes}
         onViewDetails={handleOpenModal}
