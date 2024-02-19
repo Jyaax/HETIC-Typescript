@@ -11,12 +11,12 @@ const Home: React.FC = () => {
   const [allAnimes, setAllAnimes] = useState<Anime[]>([
     {
       id: 1,
-      title: "Naruto",
+      title: "Jujutsu Kaisen",
       completed: true,
       progress: 10,
       comments: "Awesome anime!",
     },
-    { id: 2, title: "Bleach", completed: false, progress: 5 },
+    { id: 2, title: "Dr. Stone", completed: false, progress: 5 },
     { id: 3, title: "One Piece", completed: false, progress: 0 },
   ]);
 
