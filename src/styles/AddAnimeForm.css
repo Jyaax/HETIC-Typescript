@@ -1,0 +1,31 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #60495a;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3f3244;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #60495a;
+}
